@@ -5,4 +5,4 @@ from django.views.generic.base import View
 
 class BlogsIndex(View):
     def get(self,request):
-        return HttpResponse('h9')
+        return HttpResponse('h10')
