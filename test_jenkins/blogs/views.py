@@ -6,4 +6,4 @@ from django.views.generic.base import View
 
 class BlogsIndex(View):
     def get(self,request):
-        return HttpResponse('h12')
+        return HttpResponse('h13')
